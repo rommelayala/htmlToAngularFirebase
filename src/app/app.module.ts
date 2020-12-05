@@ -10,6 +10,7 @@ import { ItemComponent } from './pages/item/item.component';
 import { AppRouting } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './pages/search/search.component';
+import { CriptosComponent } from './pages/criptos/criptos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SearchComponent } from './pages/search/search.component';
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    SearchComponent
+    SearchComponent,
+    CriptosComponent
   ],
   imports: [
     BrowserModule,
